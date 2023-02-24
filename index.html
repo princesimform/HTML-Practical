@@ -2,357 +2,359 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home Page</title>
-	<link rel="shortcut icon"
-		href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico" type="image/x-icon">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-	<link rel="stylesheet" href="./style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
-	<link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-	<script src="./owlcarousel/owl.carousel.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="shortcut icon"
+    href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+  <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="./owlcarousel/owl.carousel.min.js"></script>
 </head>
 
 <body>
-	<!-- NavBar -->
-	<div class="navbar-container">
-		<div class="navbar">
-			<div class="navbar-left" id="navbarLeft">
-				<div class="logo-container">
-					<div class="logo">
-						<a href="https://www.flipkart.com/"> <img class="logo-top main-logo" src="./assets/logo.png" alt=""></a>
-						<a href="https://www.flipkart.com/" class="logo-bottom">
-							Explore <span>Plus <img src="./assets/plus_logo.png" alt=""></span>
-						</a>
-					</div>
-					<button class="open-close-bars nav-check" id="navCheck" onclick="hideShowNav()">
-						<i class="fa-solid fa-bars"></i>
-					</button>
-				</div>
-				<div class="search-input">
-					<form class="search-input-form" action="" method="get">
-						<input type="text" placeholder="Search for products,brands and more">
-						<button><i class="fa-solid fa-magnifying-glass" fill="#2874F1" width="20" height="20"></i>
-						</button>
-					</form>
-				</div>
-			</div>
-			<div class="navbar-right" id="navbarRight">
-				<div class="login">
-					<a href="/account/login">Login</a>
-				</div>
-				<div class="more">
-					<a href="#" class="more-dropdown-btn" id="more">More <i class="down-icon fa-solid fa-chevron-down"></i></a>
-					<div class="more-dropdown-menu" id="moreDropdownMenu">
-						<div class="arrow-up"></div>
-						<ul>
-							<li><a href="#"><i class="fa-solid fa-bell"></i> Notification Preferences</a></li>
-							<li><a href="#"><i class="fa-solid fa-square-question"></i> 24x7 Customer Care</a></li>
-							<li><a href="#"><i class="fa-solid fa-chart-line"></i> Advertise</a></li>
-							<li><a href="#"><i class="fa-solid fa-download"></i> Download App</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="cart">
-					<a href="">
-						<i class="cart-icon fa-solid fa-cart-shopping"></i> Cart
-					</a>
-				</div>
+  <!-- Navbar  -->
+  <div class="navbar-container">
+    <div class="navbar">
+      <div class="navbar-left" id="navbarLeft">
+        <div class="logo-container">
+          <div class="logo">
+            <a href="https://www.flipkart.com/"> <img class="logo-top main-logo" src="./assets/logo.png" alt=""></a>
+            <a href="https://www.flipkart.com/" class="logo-bottom">
+              Explore <span>Plus <img src="./assets/plus_logo.png" alt=""></span>
+            </a>
+          </div>
+          <button class="open-close-bars nav-check" id="navCheck" onclick="hideShowNav()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="search-input">
+          <form class="search-input-form" action="" method="get">
+            <input type="text" placeholder="Search for products,brands and more">
+            <button><i class="fa-solid fa-magnifying-glass" fill="#2874F1" width="20" height="20"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="navbar-right" id="navbarRight">
+        <div class="login">
+          <a href="/account/login">Login</a>
+        </div>
+        <div class="more">
+          <a href="#" class="more-dropdown-btn" id="more">More <i class="down-icon fa-solid fa-chevron-down"></i></a>
+          <div class="more-dropdown-menu" id="moreDropdownMenu">
+            <div class="arrow-up"></div>
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-bell"></i> Notification Preferences</a></li>
+              <li><a href="#"><i class="fa-solid fa-square-question"></i> 24x7 Customer Care</a></li>
+              <li><a href="#"><i class="fa-solid fa-chart-line"></i> Advertise</a></li>
+              <li><a href="#"><i class="fa-solid fa-download"></i> Download App</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="cart">
+          <a href="">
+            <i class="cart-icon fa-solid fa-cart-shopping"></i> Cart
+          </a>
+        </div>
 
-			</div>
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
 
-	<!-- Categoery -->
-	<div class="categoery">
-		<div class="category-container" id="categoryContainer">
-			<div class="categoery-item">
-				<img src="./assets/categoery/appliances.png" alt="">
-				<p>Appliances <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/beautyToys.png" alt="">
-				<p>Beauty & Toys <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/electronics.png" alt="">
-				<p>Electronics <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/fashion.png" alt="">
-				<p>Fashion <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/grocery.png" alt="">
-				<p>Grocery <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/home.jpg" alt="">
-				<p>Home <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/mobiles.png" alt="">
-				<p>Mobiles <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/topOffers.png" alt="">
-				<p>Top Offers <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/travel.png" alt="">
-				<p>Travel <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-			<div class="categoery-item">
-				<img src="./assets/categoery/twoWheelers.png" alt="">
-				<p>Two Wheelers <i class="fa-solid fa-chevron-down"></i></p>
-			</div>
-		</div>
-	</div>
-	<div class="content-container">
-		<div class="deal-of-the-day-container">
-			<div class="main-list-container deal-of-the-day">
-				<div class="heading">
-					<p>Deals Of the Day</p>
-					<div class="time-section">
-						<i class="fa-regular fa-clock time-icon"></i>
-						<span id="time">22 : 07 : 36</span> Left
-					</div>
-					<button>View All</button>
-				</div>
-				<div class="list-container deal-of-the-day-list" id="deal-of-the-day-list">
-					<div class="item-card">
-						<img src="./assets/deal/camara.jpeg" alt="">
-						<div>
-							<p class="title">Top Mirrorless</p>
-							<p class="prize">Shop Now!</p>
-							<p class="brand">Canon,Sony,Fujiflim...</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/mobile-case.jpeg" alt="">
-						<div>
-							<p class="title">Cases & Covers</p>
-							<p class="prize">Under $169 </p>
-							<p class="brand">For All Top Models</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/monitor.jpeg" alt="">
-						<div>
-							<p class="title">Monitors</p>
-							<p class="prize">From $6599</p>
-							<p class="brand">acer</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/mobile.jpeg" alt="">
-						<div>
-							<p class="title">Mobiles</p>
-							<p class="prize">From $6599</p>
-							<p class="brand">Motorola , Lava...</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/monitors.jpeg" alt="">
-						<div>
-							<p class="title">Computer Monitors</p>
-							<p class="prize">From $6599</p>
-							<p class="brand">Motorola , Lava...</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/powerbank.jpeg" alt="">
-						<div>
-							<p class="title">Powerbank</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Motorola , Lava...</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
-					<div class="item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
+  <!-- Categoery -->
+  <div class="categoery">
+    <div class="category-container">
+      <div class="categoery-item">
+        <img src="./assets/categoery/appliances.png" alt="">
+        <p>Appliances <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/beautyToys.png" alt="">
+        <p>Beauty & Toys <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/electronics.png" alt="">
+        <p>Electronics <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/fashion.png" alt="">
+        <p>Fashion <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/grocery.png" alt="">
+        <p>Grocery <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/home.jpg" alt="">
+        <p>Home <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/mobiles.png" alt="">
+        <p>Mobiles <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/topOffers.png" alt="">
+        <p>Top Offers <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/travel.png" alt="">
+        <p>Travel <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+      <div class="categoery-item">
+        <img src="./assets/categoery/twoWheelers.png" alt="">
+        <p>Two Wheelers <i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <div class="deal-of-the-day-container">
+      <div class="main-list-container deal-of-the-day">
+        <div class="heading">
+          <p>Deals Of the Day</p>
+          <div class="time-section">
+            <i class="fa-regular fa-clock time-icon"></i>
+            <span id="time">22 : 07 : 36</span> Left
+          </div>
+          <button>View All</button>
+        </div>
+        <div class="list-container deal-of-the-day-list" id="deal-of-the-day-list">
+          <div class="item-card">
+            <img src="./assets/deal/camara.jpeg" alt="">
+            <div>
+              <p class="title">Top Mirrorless</p>
+              <p class="prize">Shop Now!</p>
+              <p class="brand">Canon,Sony,Fujiflim...</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/mobile-case.jpeg" alt="">
+            <div>
+              <p class="title">Cases & Covers</p>
+              <p class="prize">Under $169 </p>
+              <p class="brand">For All Top Models</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/monitor.jpeg" alt="">
+            <div>
+              <p class="title">Monitors</p>
+              <p class="prize">From $6599</p>
+              <p class="brand">acer</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/mobile.jpeg" alt="">
+            <div>
+              <p class="title">Mobiles</p>
+              <p class="prize">From $6599</p>
+              <p class="brand">Motorola , Lava...</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/monitors.jpeg" alt="">
+            <div>
+              <p class="title">Computer Monitors</p>
+              <p class="prize">From $6599</p>
+              <p class="brand">Motorola , Lava...</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/powerbank.jpeg" alt="">
+            <div>
+              <p class="title">Powerbank</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Motorola , Lava...</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
 
 
-				</div>
-				<div>
-					<button id="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
-					<button id="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
-				</div>
-			</div>
-			<div class="ads-container">
-				<p>Best of Electronics</p>
-				<button>View All</button>
-			</div>
-		</div>
+        </div>
+        <div>
+          <button id="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+      <div class="ads-container">
+        <p>Best of Electronics</p>
+        <button>View All</button>
+      </div>
+    </div>
 
-		<div class="book-music-container deal-of-the-day-container ">
-			<div class="main-book-music-container main-list-container">
-				<div class="heading">
-					<p>Books And music Instruments</p>
-					<div class="time-section">
-						<i class="fa-regular fa-clock time-icon"></i>
-						<span id="time">22 : 07 : 36</span> Left
-					</div>
-					<button>View All</button>
-				</div>
-				<div class="list-container owl-carousel owl-theme ">
-					<div class="item item-card">
-						<img src="./assets/deal/camara.jpeg" alt="">
-						<div>
-							<p class="title">Top Mirrorless</p>
-							<p class="prize">Shop Now!</p>
-							<p class="brand">Canon,Sony,Fujiflim...</p>
-						</div>
-					</div>
-					<div class="item item-card">
+    <div class="book-music-container deal-of-the-day-container ">
+      <div class="main-book-music-container main-list-container">
+        <div class="heading">
+          <p>Books And music Instruments</p>
+          <div class="time-section">
+            <i class="fa-regular fa-clock time-icon"></i>
+            <span id="time">22 : 07 : 36</span> Left
+          </div>
+          <button>View All</button>
+        </div>
+        <div class="list-container owl-carousel owl-theme ">
+          <div class="item item-card">
+            <img src="./assets/deal/camara.jpeg" alt="">
+            <div>
+              <p class="title">Top Mirrorless</p>
+              <p class="prize">Shop Now!</p>
+              <p class="brand">Canon,Sony,Fujiflim...</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/mobile-case.jpeg" alt="">
-						<div>
-							<p class="title">Cases & Covers</p>
-							<p class="prize">Under $169 </p>
-							<p class="brand">For All Top Models</p>
-						</div>
-					</div>
-					<div class="item item-card">
+            <img src="./assets/deal/mobile-case.jpeg" alt="">
+            <div>
+              <p class="title">Cases & Covers</p>
+              <p class="prize">Under $169 </p>
+              <p class="brand">For All Top Models</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/monitor.jpeg" alt="">
-						<div>
-							<p class="title">Monitors</p>
-							<p class="prize">From $6599</p>
-							<p class="brand">acer</p>
-						</div>
-					</div>
-					<div class="item item-card">
+            <img src="./assets/deal/monitor.jpeg" alt="">
+            <div>
+              <p class="title">Monitors</p>
+              <p class="prize">From $6599</p>
+              <p class="brand">acer</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/mobile.jpeg" alt="">
-						<div>
-							<p class="title">Mobiles</p>
-							<p class="prize">From $6599</p>
-							<p class="brand">Motorola , Lava...</p>
-						</div>
-					</div>
-					<div class="item item-card">
+            <img src="./assets/deal/mobile.jpeg" alt="">
+            <div>
+              <p class="title">Mobiles</p>
+              <p class="prize">From $6599</p>
+              <p class="brand">Motorola , Lava...</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/monitors.jpeg" alt="">
-						<div>
-							<p class="title">Computer Monitors</p>
-							<p class="prize">From $6599</p>
-							<p class="brand">Motorola , Lava...</p>
-						</div>
-					</div>
-					<div class="item item-card">
+            <img src="./assets/deal/monitors.jpeg" alt="">
+            <div>
+              <p class="title">Computer Monitors</p>
+              <p class="prize">From $6599</p>
+              <p class="brand">Motorola , Lava...</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/powerbank.jpeg" alt="">
-						<div>
-							<p class="title">Powerbank</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Motorola , Lava...</p>
-						</div>
-					</div>
-					<div class="item item-card">
+            <img src="./assets/deal/powerbank.jpeg" alt="">
+            <div>
+              <p class="title">Powerbank</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Motorola , Lava...</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
-					<div class="item item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
-					<div class="item item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
+          <div class="item item-card">
 
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
-					<div class="item item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
+          <div class="item item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
 
-					<div class="item item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
+          <div class="item item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
 
-					<div class="item item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
+          <div class="item item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
 
-					<div class="item item-card">
-						<img src="./assets/deal/trimmer.jpeg" alt="">
-						<div>
-							<p class="title">Best of Shavers</p>
-							<p class="prize">From $65.99</p>
-							<p class="brand">Philips & Havells...</p>
-						</div>
-					</div>
+          <div class="item item-card">
+            <img src="./assets/deal/trimmer.jpeg" alt="">
+            <div>
+              <p class="title">Best of Shavers</p>
+              <p class="prize">From $65.99</p>
+              <p class="brand">Philips & Havells...</p>
+            </div>
+          </div>
 
-				</div>
-			</div>
-		</div>
-	</div>
-<script src="./script.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
