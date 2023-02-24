@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+	<!-- NavBar -->
+	<div class="navbar-container">
+		<div class="navbar">
+			<div class="navbar-left" id="navbarLeft">
+				<div class="logo-container">
+					<div class="logo">
+						<a href="https://www.flipkart.com/"> <img class="logo-top main-logo" src="./assets/logo.png" alt=""></a>
+						<a href="https://www.flipkart.com/" class="logo-bottom">
+							Explore <span>Plus <img src="./assets/plus_logo.png" alt=""></span>
+						</a>
+					</div>
+					<button class="open-close-bars nav-check" id="navCheck" onclick="hideShowNav()">
+						<i class="fa-solid fa-bars"></i>
+					</button>
+				</div>
+				<div class="search-input">
+					<form class="search-input-form" action="" method="get">
+						<input type="text" placeholder="Search for products,brands and more">
+						<button><i class="fa-solid fa-magnifying-glass" fill="#2874F1" width="20" height="20"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="navbar-right" id="navbarRight">
+				<div class="login">
+					<a href="/account/login">Login</a>
+				</div>
+				<div class="more">
+					<a href="#" class="more-dropdown-btn" id="more">More <i class="down-icon fa-solid fa-chevron-down"></i></a>
+					<div class="more-dropdown-menu" id="moreDropdownMenu">
+						<div class="arrow-up"></div>
+						<ul>
+							<li><a href="#"><i class="fa-solid fa-bell"></i> Notification Preferences</a></li>
+							<li><a href="#"><i class="fa-solid fa-square-question"></i> 24x7 Customer Care</a></li>
+							<li><a href="#"><i class="fa-solid fa-chart-line"></i> Advertise</a></li>
+							<li><a href="#"><i class="fa-solid fa-download"></i> Download App</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="cart">
+					<a href="">
+						<i class="cart-icon fa-solid fa-cart-shopping"></i> Cart
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
 </body>
+
 </html>
