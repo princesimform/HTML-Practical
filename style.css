@@ -1,0 +1,33 @@
+:root {
+    --mainColor: #2874f0;
+    --secondaryColor: #ffe500;
+    --whiteColor: #fff;
+    --color-bg-grey: #e4e7ed;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f3f6;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
