@@ -35,6 +35,9 @@ input:focus {
 /* Navbar Styling */
 .navbar-container {
 	background-color: var(--mainColor);
+	position: fixed;
+	width: 100%;
+	z-index: 99;
 }
 
 .navbar {
@@ -214,9 +217,10 @@ input:focus {
 .categoery {
 	min-width: 1280px;
 	width: 100%;
-	height: 120px;
 	background-color: white;
 	box-shadow: 1px 1px 0 rgb(0 0 0 / 16%);
+	padding-top: 70px;
+	padding-bottom: 10px;
 }
 
 .category-container {
@@ -447,7 +451,7 @@ input:focus {
 
 @media only screen and (max-width: 1200px) {
 	.search-input-form {
-		min-width: 320px;
+		min-width: auto;
 	}
 
 
@@ -462,6 +466,7 @@ input:focus {
 		background-color: var(--mainColor);
 		width: 100%;
 		display: flex;
+		position: inherit;
 	}
 
 	.navbar {
@@ -504,6 +509,7 @@ input:focus {
 
 	.categoery {
 		min-width: 100%;
+		padding-top: 0;
 	}
 
 	.category-container .categoery-item {
